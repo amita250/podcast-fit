@@ -1,0 +1,35 @@
+# Copy this file to config.yaml and edit it.
+# config.yaml is git-ignored, so your playlist IDs and show list stay private.
+
+market: IL               # country code used to check which episodes are playable
+episodes_per_show: 50    # how many recent episodes to scan in each show
+
+profiles:
+  - name: "Commute 40-50"
+    # Create an empty playlist in Spotify, then copy its ID from the share link:
+    # https://open.spotify.com/playlist/<THIS_PART>?si=...
+    playlist_id: "PASTE_PLAYLIST_ID_HERE"
+    min_minutes: 40
+    max_minutes: 50
+    target_count: 12          # enough for a week of commutes, plus a spare
+    shows: followed           # every podcast saved in your library
+
+  - name: "Walk 20-30"
+    playlist_id: "PASTE_ANOTHER_PLAYLIST_ID_HERE"
+    min_minutes: 20
+    max_minutes: 30
+    target_count: 8
+    max_per_show: 3           # don't let one podcast take over the playlist
+    # Or pick specific podcasts by their show ID instead of `followed`:
+    # shows:
+    #   - "6VGc4JosqImDe1CQegoLEr"
+
+    # Optional rules (defaults shown):
+    # use_remaining_time: true  # a half-heard episode counts by the time left in it
+    # include_played: false     # skip episodes you've finished
+    # max_age_days: 90          # only episodes released in the last N days
+    # languages: ["he", "en"]   # only these languages
+    # started_episodes: last    # episodes you started but didn't finish:
+    #                           #   last    = second chance, only to fill leftover slots
+    #                           #   first   = put them on top
+    #                           #   exclude = never pick them

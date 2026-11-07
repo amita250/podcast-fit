@@ -1,0 +1,40 @@
+{
+    "description": "מתוך פרידה שחוותה נעמי אהרוני גל נולדה זמרת פופ בשם נונו. אחרי שהשיר הראשון שלה הצליח, היא הבינה שהיא מוכרחה לחיות את החלום - ויצרה להיט חדשמגיש ועורך: ניר גורלי, עורכת: מאיה קוסובר, עריכת סאונד ומיקס: אסף רפפורט, צילום: רותם לבלSee omnystudio.com/listener for privacy information.",
+    "duration_ms": 1464816,
+    "explicit": false,
+    "external_urls": {
+        "spotify": "https://open.spotify.com/episode/19Ld3RMiadlr4RtTMe8D7E"
+    },
+    "href": "https://api.spotify.com/v1/episodes/19Ld3RMiadlr4RtTMe8D7E",
+    "html_description": "<p>מתוך פרידה שחוותה נעמי אהרוני גל נולדה זמרת פופ בשם נונו. אחרי שהשיר הראשון שלה הצליח, היא הבינה שהיא מוכרחה לחיות את החלום - ויצרה להיט חדש<br /><br />מגיש ועורך: ניר גורלי, עורכת: מאיה קוסובר, עריכת סאונד ומיקס: אסף רפפורט, צילום: רותם לבל</p><p>See <a href=\"https://omnystudio.com/listener\" rel=\"nofollow\">omnystudio.com/listener</a> for privacy information.</p>",
+    "id": "19Ld3RMiadlr4RtTMe8D7E",
+    "images": [
+        {"height": 640, "url": "https://i.scdn.co/image/ab6765630000ba8abe8988d2476489d15e50f20f", "width": 640},
+        {"height": 300, "url": "https://i.scdn.co/image/ab67656300005f1fbe8988d2476489d15e50f20f", "width": 300},
+        {"height": 64, "url": "https://i.scdn.co/image/ab6765630000f68dbe8988d2476489d15e50f20f", "width": 64}
+    ],
+    "is_externally_hosted": false,
+    "is_playable": true,
+    "language": "he",
+    "languages": ["he"],
+    "name": "ליבינג דה דרים | נונו",
+    "release_date": "2022-10-24",
+    "release_date_precision": "day",
+    "show": {
+        "copyrights": [],
+        "description": "בכל פרק נביא סיפור אחד, מאחורי שיר אחד. היוצרים, המבצעים וכל מי שבאמצע, יחשפו את הדרך שעברו - מרגע ההשראה ועד ללב שלנו. בצוות: מאיה קוסובר, ניר גורלי, אסף רפפורט, איל שינדלר, תומר מולוידזון.",
+        "explicit": false,
+        "external_urls": {"spotify": "https://open.spotify.com/show/6VGc4JosqImDe1CQegoLEr"},
+        "href": "https://api.spotify.com/v1/shows/6VGc4JosqImDe1CQegoLEr",
+        "id": "6VGc4JosqImDe1CQegoLEr",
+        "is_externally_hosted": false,
+        "languages": ["he"],
+        "media_type": "audio",
+        "name": "שיר אחד One Song",
+        "total_episodes": 133,
+        "type": "show",
+        "uri": "spotify:show:6VGc4JosqImDe1CQegoLEr"
+    },
+    "type": "episode",
+    "uri": "spotify:episode:19Ld3RMiadlr4RtTMe8D7E"
+}
