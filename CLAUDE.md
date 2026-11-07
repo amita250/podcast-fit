@@ -66,8 +66,12 @@ Podcast Index source should return the same `Episode` objects.
 - Done: Spotify app, Redirect URI, sign-in, two playlists, `config.yaml`.
   `auth.py` ConfigError handling and `started_episodes` applied (83 tests).
   First real run filled both playlists (2026-11-07).
-- Next: push to GitHub (public), set Actions secrets and the
-  `PODCAST_FIT_CONFIG` variable, then a manual "Run workflow" with dry_run.
+- Live on GitHub (public): github.com/amita250/podcast-fit. Actions secrets
+  and the `PODCAST_FIT_CONFIG` variable are set; a manual dry_run passed.
+- Refresh token expires ~2027-05 (6 months after sign-in): rerun
+  `python -m podcast_fit.auth`, then `gh secret set -f .env`.
+- GitHub disables scheduled workflows in public repos after 60 days without
+  repo activity; re-enable from the Actions tab.
 
 ## Ideas for later
 Fill a slot with two shorter episodes; RSS source for a public tool; a small
